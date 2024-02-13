@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2455977007869509123}
   - component: {fileID: 4012361744412221063}
   - component: {fileID: 2566169827178290209}
+  - component: {fileID: -6753962017700490157}
   m_Layer: 0
   m_Name: toupie
   m_TagString: Untagged
@@ -28,14 +29,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7934648489246911599}
-  m_LocalRotation: {x: -0.70710695, y: -0, z: -0, w: 0.70710665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.288, y: 0.736, z: 0.12}
-  m_LocalScale: {x: 0.2045, y: 0.11846119, z: 0.2045}
+  m_LocalScale: {x: 0.2045, y: 0.07604498, z: 0.35793638}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3064046253998503675
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -105,10 +106,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.5315906
+  m_Height: 1.2927747
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.084953204, z: 0}
 --- !u!54 &4012361744412221063
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -271,3 +272,15 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &-6753962017700490157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7934648489246911599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f51de52206bbb1499d5b882a8d90b94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

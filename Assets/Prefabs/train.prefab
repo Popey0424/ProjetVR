@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4356914951202213814}
   - component: {fileID: 5200220032092367206}
   - component: {fileID: 2439197418873012588}
+  - component: {fileID: -7226247433514065902}
   m_Layer: 0
   m_Name: train
   m_TagString: Untagged
@@ -269,3 +270,15 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &-7226247433514065902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997856232970591932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f51de52206bbb1499d5b882a8d90b94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
