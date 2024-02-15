@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class ObjectBehavior : MonoBehaviour
 {
+    public bool IsHere;
+
     // Start is called before the first frame update
     void Start()
     {
-
     }
 
     // Update is called once per frame
@@ -21,7 +22,7 @@ public class ObjectBehavior : MonoBehaviour
         if (collision.gameObject.name.Contains("Kid"))
         {
             Destroy(collision.gameObject);
-            Destroy(gameObject);
+            IsHere = false;
         }
     }
 }
